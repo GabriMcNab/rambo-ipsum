@@ -1,0 +1,14 @@
+{
+  "name": "ramboipsum",
+  "version": "1.0.0",
+  "description": "Lorem Ipsum generator based on the movie 'Rambo'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GabriMcNab",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

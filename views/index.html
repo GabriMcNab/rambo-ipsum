@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Rambo Ipsum lorem ipsum generator">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rambo Ipsum</title>
+    <link rel="shortcut icon" type="image/x-" href="img/favicon.ico">
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container">
+      <header>
+        <h1>Rambo Ipsum</h1>
+        <h3>A deadly lorem ipsum generator</h3>
+      </header>
+
+      <form>
+        <span>How many paragraphs?</span>
+        <div>
+          <input type="text" class="input" maxlength="2" id="number" name="number">
+          <label for="number"></label>
+        </div>
+        <span>Start with 'Rambo ipsum...'</span>
+        <div class="checkbox">
+          <input type="checkbox" name="ramboStart" id="ramboStart" value="None">
+          <label for="ramboStart"></label>
+        </div>
+        <button type="submit" class="btn" id="button">Generate!</button>
+      </form>
+    </div>
+
+    <div id="text" class="text-field"></div>
+
+    <hr>
+
+    <footer>Designed and built by Gabriele Fazio</footer>
+
+    <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
